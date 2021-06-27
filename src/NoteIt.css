@@ -1,0 +1,11 @@
+.NoteIt {
+  position: absolute;
+  bottom: 8vh;
+  right: 8vh;
+  width: calc(10px + 8vh);
+  height: calc(10px + 8vh);
+  padding: 8px 12px;
+  border-radius: calc(5px + 4vh);
+  font-size: 11px;
+  text-align: center;
+}
