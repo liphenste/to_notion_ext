@@ -11,13 +11,15 @@ document.body.onclick = (event) => {
 
     const url = "https://us-central1-to-notion-project.cloudfunctions.net/sendToNotion";
     let data = {
+        title: "Post from the To Notion Chrome Extension",
+        header: "By Stephen Li :-)",
         text: content,
     };
     let params = {
         headers: {
             "content-type":"application/json; charset=UTF-8"
         },
-        body: data,
+        body: JSON.stringify(data),
         method: "POST",
     };
     fetch(url, params)

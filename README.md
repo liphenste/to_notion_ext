@@ -6,7 +6,7 @@ Built with React and Cloud Functions.
 ## Quick Start
 
 - Clone this repo
-- `npm i` && `npm start`
+- `npm i` && `npm run build`
 - Assuming you're using Chrome, go to [chrome://extensions/](chrome://extensions/) > "Load Unpacked"
 - Load this repo's `public` folder
 - $$$
