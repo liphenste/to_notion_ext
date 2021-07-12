@@ -8,13 +8,7 @@ export default function NoteIt(): ReactElement {
 
         chrome.scripting.executeScript({
             target: { tabId: tab.id || -1 },
-            function: setPageBackgroundColor,
-        });
-    }
-
-    const setPageBackgroundColor = () => {
-        chrome.storage.sync.get("color", ({ color }) => {
-            document.body.style.backgroundColor = color;
+            files: ['jigglewiggle.js'],
         });
     }
 
