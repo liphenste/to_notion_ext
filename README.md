@@ -8,7 +8,7 @@ Built with React and Cloud Functions.
 - Clone this repo
 - `npm i` && `npm run build`
 - Assuming you're using Chrome, go to [chrome://extensions/](chrome://extensions/) > "Load Unpacked"
-- Load this repo's `public` folder
+- Load this repo's `build` folder
 - $$$
 
 ## Developing with Chrome Extensions
