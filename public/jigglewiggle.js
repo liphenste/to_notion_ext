@@ -9,7 +9,7 @@ document.body.onmouseout = (event) => {
 document.body.onclick = (event) => {
     let content = event.target.innerHTML;
 
-    const url = "https://us-central1-to-notion-project.cloudfunctions.net/sendToNotion";
+    const url = "https://us-central1-studious-bit-325802.cloudfunctions.net/sendToNotion";
     let data = {
         title: "Post from the To Notion Chrome Extension",
         header: "By Stephen Li :-)",
