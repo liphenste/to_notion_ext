@@ -3,8 +3,8 @@
 A Chrome extension for easily porting web content over to Notion workspaces.\
 Built with React and Cloud Functions.
 
-- [https://github.com/Tran-Daniel/toNotion](Core Backend)
-- [https://github.com/Tran-Daniel/toNotion-auth](Auth Layer)
+- [Core Backend](https://github.com/Tran-Daniel/toNotion)
+- [Auth Layer](https://github.com/Tran-Daniel/toNotion-auth)
 
 ## Quick Start
 
